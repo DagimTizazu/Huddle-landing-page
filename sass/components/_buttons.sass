@@ -1,1 +1,20 @@
-
+.register-button
+    font:
+        family: $heading-font
+        size: .8rem
+    color: $violet
+    background: $white
+    border: none
+    border-radius: 20px
+    box-shadow: 1px 2px 5px lighten($black, 20%)
+    padding: 13px 74px
+    margin: 8px 0 50px
+    @media (min-width: 1000px)
+        padding: 12px 45px
+    @media (min-width: 1300px)
+        padding: 18px 69px
+        font-size: 1.2rem
+        border-radius: 50px
+    &:hover
+        background: $soft-magenta
+        color: $white

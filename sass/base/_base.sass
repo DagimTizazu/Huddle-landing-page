@@ -2,5 +2,11 @@
     box-sizing: border-box
 
 body
-    color: black
-    background: white
+    color: $white
+    background:
+        color: $violet
+        image: url(../images/bg-mobile.svg)
+        repeat: no-repeat
+        size: contain
+    @media (min-width: 1000px)
+        background-image: url(../images/bg-desktop.svg)
